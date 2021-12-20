@@ -38,3 +38,9 @@ web:
 
 # The size of the persistent disk of the application (in MB).
 disk: 1024
+
+source:
+  operations:
+    auto-update:
+      command: |
+        python scripts/autoupdate.py
